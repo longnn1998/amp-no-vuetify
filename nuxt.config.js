@@ -72,7 +72,7 @@ export default {
     },
   },
   amp: {
-    origin: 'http://localhost:3000',
+    origin: process.env.ORIGIN_URL || 'http://localhost:3000',
     mode: 'hybrid',
   },
 
